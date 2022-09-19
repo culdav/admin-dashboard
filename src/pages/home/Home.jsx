@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import Sidebar from '../../components/sidebar/Sidebar';
 import Widget from '../../components/widget/Widget';
@@ -21,7 +20,7 @@ const Home = () => {
         </div>
         <div className='charts'>
           <Featured></Featured>
-          <Chart></Chart>
+          <Chart aspect={2 / 1} title='Revenue (Last 6 months)'></Chart>
         </div>
         <div className='listContainer'>
           <div className='listTitle'>Latest Transactions</div>
